@@ -50,7 +50,9 @@ li{
 a{
   text-decoration: none;
 }
-
+body{
+  font-family: var(--ff-poppins);
+}
 a,
 img,
 span,
@@ -898,7 +900,7 @@ button, a{
   background: var(--black);
   border-radius: 5px;
 }
-.footer{
+/* .footer{
   background: var(--raisin-black-1);
   color: var(--white);
   margin-bottom: 68px;
@@ -981,7 +983,14 @@ button, a{
 }
 .copyright a:is(:hover, :focus){
   color: var(--orange-soda);
-}
+} */
+ .social-listt{
+  display: flex;
+ }
+ .footer-link-box{
+  display: flex;
+  gap: 90px;
+ }
 @media screen and(max-width: 768px) {
   :root{
     --fs-1: 2.5rem;
